@@ -1,0 +1,23 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    gap: 5px;
+}
+
+.grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: #fff;
+    background-color: #FF1493;
+}
+
+.item1 {
+    grid-column: span 2;
+}
+
+.item2, .item3 {
+    grid-row: span 2;
+}

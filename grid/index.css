@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 100px 200px;
+    gap: 10px;
+}
+
+/* .container {
+    grid-template-columns: repeat(3, 20px);
+}
+
+.container {
+    grid-template-columns: 20px 20px 20px;
+} */

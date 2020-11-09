@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60px 60px;
+    grid-gap: 10px;
+    grid-auto-rows: 180px;
+}
+
+.container.column {
+    grid-auto-columns: 200px;
+    grid-auto-flow: column;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explicit-grid {
+    background-color: #F89427;
+}
+
+.implicit-grid {
+    background-color: #3DBFE6;
+}

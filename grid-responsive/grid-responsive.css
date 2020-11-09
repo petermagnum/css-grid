@@ -1,0 +1,23 @@
+.grid-container-fit {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.grid-container-fill {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.line {
+    height: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #000;
+}
+
+.item:hover {
+    transform: translateY(-2px) scale(1.1);
+}
+
