@@ -1,0 +1,57 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-template-rows: repeat(8, 80px);
+  gap: 6px;
+}
+
+.container > div {
+  display: flex;
+  font-size: 6rem;
+  color:white;
+  background-color: green;
+}
+
+.item1 {
+  grid-column: span 2; 
+}
+
+.item2 {
+  grid-column: span 2; 
+}
+
+.item9 {
+  grid-column: span 2; 
+}
+
+.item10 {
+  grid-column: span 2; 
+}
+
+.item4 {
+  grid-row: span 3;
+}
+
+.item5 {
+  grid-row: span 3;
+}
+
+.item7 {
+  grid-row: span 3;
+}
+
+.item8 {
+  grid-row: span 3;
+}
+
+.item3 {
+  grid-row: span 6;
+}
+
+.item6 {
+  grid-row: span 6;
+}
+
+
+
+

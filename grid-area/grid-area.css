@@ -1,7 +1,7 @@
 .item {
   text-align: center;
   padding: 12px 0px;
-  border-radius: 5rem;
+
 }
 
 .item-a {
@@ -10,11 +10,11 @@
 }
 .item-b {
   grid-area: main;
-  background-color: #3DBFE6;
+  background-color:  #68B96A;
 }
 .item-c {
   grid-area: sidebar;
-  background-color: #EC7272;
+  background-color:  #68B96A;
 }
 .item-d {
   grid-area: footer;
@@ -35,7 +35,7 @@
   display: grid;
   grid-template:
     "header header header header"
-    "main main . sidebar"
+    "main main sidebar sidebar"
     "footer footer footer footer"
     / 1fr 1fr 1fr 1fr;
   /* column-gap: 5px;
